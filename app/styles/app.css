@@ -20,13 +20,12 @@ li {
 
 
 
-
 /* Form formatting... */
 form {
     border: 3px solid #f1f1f1;
+    border-radius: 3px;
     width: 300px;
 }
-
 /* Full-width inputs */
 input[type=text], input[type=password] {
     width: 100%;
@@ -36,7 +35,6 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-
 /* Set a style for all buttons */
 button {
     background-color: #4CAF50;
@@ -46,36 +44,49 @@ button {
     border: none;
     cursor: pointer;
     width: 100%;
+    border-radius: 3px;
 }
-
 /* Add a hover effect for buttons */
 button:hover {
     opacity: 0.8;
 }
-
 /* Extra style for the cancel button (red) */
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
-}
 
+    margin-top: 9px;
+    margin-bottom: 6px;
+
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
 /* Add padding to containers */
 .signin-container {
     padding: 16px;
+    margin-bottom: 9px;
 }
-
-/* color the remember me text to stand out against background */
+.signin-container-bottom {
+    background-color: whitesmoke;
+}
+/* color the remember me text to stand out against background and float left */
 .signin-remember-me {
     color: whitesmoke;
+    float: left;
+}
+.signin-remember-me-checkbox {
+    float: left;
 }
 
 /* The "Forgot password" text */
 span.psw {
     float: right;
     padding-top: 16px;
+    padding-right: 36px;
 }
-
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
@@ -86,6 +97,7 @@ span.psw {
         width: 100%;
     }
 } 
+
 
 /* Signout Button */
 .signout-button {
