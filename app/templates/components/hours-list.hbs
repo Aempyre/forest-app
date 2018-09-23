@@ -2,6 +2,6 @@
 
 <ul>
   {{#each hours as |hour|}}
-    <li>{{hour}}</li>
+    <li {{action "showNote" hour}}>{{hour.time}}{{has-note-flag hour.note}}</li>
   {{/each}}
 </ul>

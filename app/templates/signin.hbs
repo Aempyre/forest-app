@@ -1,2 +1,26 @@
 <h2>Please Sign In!</h2>
-{{outlet}}
+
+<div align="center">
+
+    <form action="timeline">
+
+        <div class="signin-container">
+            <label for="uname" ><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label class="signin-remember-me">
+                <input type="checkbox" checked="checked" name="remember">Remember me</label>
+        </div>
+
+        <div class="signin-container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+
+    </form> 
+
+</div>
