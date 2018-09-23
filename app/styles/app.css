@@ -68,6 +68,7 @@ button:hover {
 .signin-container {
     padding: 16px;
     margin-bottom: 9px;
+    color: whitesmoke;
 }
 .signin-container-bottom {
     background-color: whitesmoke;

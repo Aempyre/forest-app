@@ -5,20 +5,24 @@
   <form action="timeline">
 
     <div class="signin-container">
-      <label style="color: whitesmoke;" for="uname" ><b>Username</b></label>
+      <label for="uname" ><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
 
-      <label style="color: whitesmoke;" for="psw"><b>Password</b></label>
+      <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
 
       <button type="submit">Login</button>
       <label class="signin-remember-me">Remember me</label>
-      <input class="signin-remember-me-checkbox" type="checkbox" 
-                               checked="checked" name="remember">
+      <input 
+        type="checkbox" 
+        checked="checked" 
+        name="remember" 
+        class="signin-remember-me-checkbox"
+      >
+
     </div>
 
     <div class="signin-container-bottom" >
-      {{!-- <button type="button" class="cancelbtn">Cancel</button> --}}
       <a class="cancelbtn" href="http://www.forestgoer.org" >Cancel</a>
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
