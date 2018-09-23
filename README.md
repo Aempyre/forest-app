@@ -1,3 +1,9 @@
+# This is the EMBER App part of the Forest Notes application.
+
+
+
+Old notes below:
+
 # forest-notes
 
 This README outlines the details of collaborating on this Ember application.
