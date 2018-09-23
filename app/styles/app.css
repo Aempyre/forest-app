@@ -3,11 +3,6 @@ body {
 }
 h1 {
     text-align: center;
-    /* color: goldenrod; */
-    /* color: rgb(218, 165, 32); */
-    /* color: rgb(218, 165, 32); */
-    /* color: rgb(181, 132, 16); */
-    /* color: rgb(88, 62, 1); */
     color: black;
     font-size: 36px;
     font-style: bold;
@@ -112,6 +107,6 @@ span.psw {
 }
 
 /* Add a hover effect for buttons */
-signout-button:hover {
+.signout-button:hover {
     opacity: 0.8;
 }
